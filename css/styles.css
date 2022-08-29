@@ -113,7 +113,12 @@ img {
 	padding-bottom: 32px;
 	display: block;
 }
-
+.auth-nav-link {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	fill: currentColor;
+}
 .auth-nav {
 	margin-left: auto;
 	gap: 50px;
@@ -182,10 +187,17 @@ img {
 }
 
 .hero {
-	background-color: var(--title-background-color);
+	background-color:#C4C4C4;
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/Img.jpg);
+	background-repeat: no-repeat;
+	/*background-position: center;
+	 background-size: cover; */
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .hero-title {
@@ -259,6 +271,26 @@ img {
 .team {
 	background-color: var(--team-background-color);
 }
+.social-list {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.social {
+	width: 44px;
+	height: 44px;
+}
+.social-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	fill: #AFB1B8;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;	
+}
+
 
 /* Боді. Майн. Займаємося.*/
 .feature-list .title {
@@ -292,6 +324,8 @@ img {
 	line-height: 1.18;
 	text-align: center;
 	margin-top: 10px;
+	margin-bottom: 16px;
+
 }
 
 /* Боді. Футер*/
@@ -310,7 +344,23 @@ img {
 	font-weight: 400;
 	line-height: 1.71;
 }
-
+.footer-container {
+	display: flex;
+	gap: 70px;
+}
+.page-footer .title {
+	margin-bottom: 20px;
+	color: var(--title-text-color);
+}
+.page-footer .social-link {
+	fill: var(--title-text-color);
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.social-link:hover,
+.social-link:focus {
+	background-color: var(--accent-background-color);
+	fill: var(--title-text-color)
+}
 .footer-list .link {
 	color: var(--title-text-color);
 }
