@@ -218,9 +218,9 @@ img {
 	font-size: 14px;
 	line-height: 1.71;
 }
-.icons-list {
+/* .icons-list {} */
 	
-}
+
 .hero-icons {
 	display: flex;
 	gap: 30px;
