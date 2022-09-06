@@ -373,14 +373,14 @@ img {
 	color: var(--title-text-color);
 }
 
-.page-footer-ad .link {
-	font-style: normal;
+/* .page-footer-address { 
 	font-weight: 400;
 	line-height: 1.71;
-}
+}*/
 .footer-container {
 	display: flex;
 	gap: 70px;
+	align-items: baseline;
 }
 .page-footer .title {
 	margin-bottom: 20px;
@@ -410,6 +410,9 @@ img {
 
 .footer-address {
 	margin-top: 20px;
+	font-style: normal;
+	font-weight: 400;
+    line-height: 1.71;
 }
 
 .footer-address li + li {
